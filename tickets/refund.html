@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="refund.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>WIDAMAR</h1>
+        <ul>
+            <li><a href="#"><img src="Category.png" alt="Dashboard Icon">Dashboard</a></li>
+            <li><a href="#"><img src="profileicon.png" alt="Users Icon">Users</a></li>
+            <li><a href="#"><img src="ticketstar.png" alt="Tickets Icon">Tickets</a></li>
+            <li><a href="#"><img src="profile2user.png" alt="Admin Icon">Admin</a></li>
+            <li><a href="#"><img src="setting.png" alt="Settings Icon">Site Settings</a></li>
+        </ul>
+    </div>
+    
+
+    <div class="content">
+        <div class="content">
+            <div class="navbar">
+                <span>Welcome! Ivan Nanda</span>
+                <div class="profile">
+                    <img src="profile.png" alt="User Profile">
+                    <span>Nanda Ivan</span>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="tabs">
+                    <button>Pesan</button>
+                    <button>Riwayat</button>
+                    <button class="active">Refund</button>
+                </div> 
+            </div> 
+
+            <h3>Tiket Yang di Refund</h3>
+            <div class="ticket-card">
+                <div class="header">
+                    <span>Kode Pemesanan <strong>LWT7RKB</strong></span>
+                    <span class="ticket-status refund">Refund</span>
+                </div>
+                <div class="body">
+                    <p>14 November 2024</p>
+                    <p>Tiket Masuk Widamar</p>
+                    <p>Mulyadi</p>
+                    <p>08123456789</p>
+                    <p><strong>Total Harga: Rp 5.000</strong></p>
+                </div>
+            </div>
+
+            <div class="refund-section">
+                <div class="reason">
+                    <h4>Kenapa Ingin Ajukan Refund?</h4>
+                    <textarea placeholder="Keterangan"></textarea>
+                </div>
+                <div class="method">
+                    <h4>Metode Refund</h4>
+                    <div>
+                        <label>
+                            <input type="radio" name="payment" value="credit">
+                            <img src="credit.png" alt="Credit Card"> Kartu Kredit
+                        </label>
+                        <label>
+                            <input type="radio" name="payment" value="qris">
+                            <img src="qris.png" alt="QRIS"> QRIS
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <button class="submit-btn">Ajukan</button>
+        </div>
+    </div>
+</body>
+</html>
