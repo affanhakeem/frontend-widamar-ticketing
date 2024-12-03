@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    justify-items: center;
+    background-image: url(Login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-container {
+    width: 400px;
+    padding: 2rem;
+    margin-top: 30vh ;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+.input-box {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 12px 12px 12px 50px;
+    padding-top: 24px;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.input-box input::placeholder {
+    color: #ffffff;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #0028b6;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-box img {
+    position: absolute;
+    top: 35%;
+    left: 12px;
+    width: 24px; 
+    height: 24px;
+  }
+
+
+.login-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.forgot-password {
+    margin-top: 1rem;
+    text-align: end;
+}
+
+.forgot-password a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.make-akun{
+    text-align: start;
+    margin-top: -1rem;
+}
+
+.make-akun a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.make-akun a:hover {
+    text-decoration: underline;
+}
